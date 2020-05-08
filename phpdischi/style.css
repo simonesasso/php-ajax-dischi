@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgrey;
+  color: lime;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+li{
+  width: calc((100% - 50px) / 4);
+  text-align: center;
+  padding: 20px;
+  background-color: dodgerblue;
+  margin: 5px;
+}
+img{
+  height: 80px;
+  width: auto;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 30px;
+  /* height: calc(100vh - 80px); */
+}
+.cont-ul{
+ background-color: grey;
+ padding: 20px;
+ width: 70%;
+}
