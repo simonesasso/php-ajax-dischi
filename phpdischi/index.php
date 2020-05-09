@@ -9,6 +9,11 @@
     <header>
       <h1>Spotify</h1>
     </header>
+    <nav>
+      <button type="button" name="button" id="tutti">Vedi tutti</button>
+      <input type="text" id="filtro_txt" placeholder="Nome artista">
+      <button type="button" name="button" id="filtro">Filtra</button>
+    </nav>
     <div class="container">
       <div class="cont-ul">
         <ul>

@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: black;
+}
 header{
   height: 80px;
   display: flex;
@@ -11,6 +14,16 @@ header{
   background-color: darkgrey;
   color: lime;
 }
+nav{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+button{
+  margin: 0 5px;
+}
 ul{
   list-style-type: none;
   display: flex;
@@ -18,26 +31,25 @@ ul{
   flex-wrap: wrap;
 }
 li{
-  width: calc((100% - 50px) / 4);
+  width: calc((100% - 100px) / 4);
   text-align: center;
-  padding: 20px;
+  padding: 10px 0;
   background-color: dodgerblue;
   margin: 5px;
 }
 img{
-  height: 80px;
+  height: 120px;
   width: auto;
 }
 .container{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
   padding: 30px;
-  /* height: calc(100vh - 80px); */
 }
+
+
 .cont-ul{
- background-color: grey;
- padding: 20px;
- width: 70%;
+  padding: 20px;
+  width: 70%;
 }
